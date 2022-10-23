@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void cambiarActivity(View view)
     {
-        Intent sig = new Intent(this, SegundaActivity.class);
+        Intent sig = new Intent(this, activity_segunda.class);
         startActivity(sig);
 
     }
