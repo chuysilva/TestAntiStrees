@@ -7,6 +7,32 @@
     android:background="#067A7A"
     tools:context=".activity_quinto">
 
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="43dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+    </RadioGroup>
+
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="128dp"
@@ -15,83 +41,54 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="Siguiente"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/proximo" />
 
-    <RadioButton
-        android:id="@+id/radioButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton10" />
-
-    <RadioButton
-        android:id="@+id/radioButton25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton11" />
-
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/open_sans"
         android:text="Totalmente deacuerdo"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/radioButton25"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:layout_editor_absoluteX="92dp" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/open_sans"
         android:text="En desacuerdo"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/radioButton10"
-        app:layout_constraintTop_toBottomOf="@+id/textView19" />
-
-    <RadioButton
-        android:id="@+id/radioButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="50dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:layout_editor_absoluteX="92dp" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/open_sans"
         android:text="Deacuerdo"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/radioButton11"
-        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:layout_editor_absoluteX="92dp" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="352dp"
         android:layout_height="79dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/open_sans"
         android:text="¿Has estado agobiado con como van las cosas en tu vida?"
         android:textAlignment="center"
@@ -104,7 +101,7 @@
     <TextView
         android:id="@+id/textView18"
         android:layout_width="416dp"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="25dp"
         android:background="#153439"
         app:layout_constraintBottom_toTopOf="@+id/textView"
