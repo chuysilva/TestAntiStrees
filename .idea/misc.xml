@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/drawable/bordes_redondos.xml" value="0.128" />
-        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_cuarto.xml" value="0.25" />
-        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_main.xml" value="0.2397553516819572" />
-        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_quinto.xml" value="0.25" />
-        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_segunda.xml" value="0.25" />
-        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_tercero.xml" value="0.25" />
+        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_cuarto.xml" value="0.2" />
+        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_quinto.xml" value="0.16" />
+        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_segunda.xml" value="0.2" />
+        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_septima.xml" value="0.2" />
+        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_sexto.xml" value="0.22" />
+        <entry key="..\:/Users/alber/AndroidStudioProjects/TestAntiStrees/app/src/main/res/layout/activity_tercero.xml" value="0.2" />
       </map>
     </option>
   </component>
