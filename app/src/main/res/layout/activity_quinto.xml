@@ -11,7 +11,7 @@
         android:id="@+id/radioGroup7"
         android:layout_width="43dp"
         android:layout_height="187dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19">
@@ -24,12 +24,12 @@
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
-            android:layout_height="51dp" />
+            android:layout_height="69dp" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="wrap_content"
-            android:layout_height="50dp" />
+            android:layout_height="57dp" />
 
     </RadioGroup>
 
@@ -52,37 +52,40 @@
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/open_sans"
         android:text="Totalmente deacuerdo"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView26"
-        tools:layout_editor_absoluteX="92dp" />
+        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/open_sans"
         android:text="En desacuerdo"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        tools:layout_editor_absoluteX="92dp" />
+        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/open_sans"
         android:text="Deacuerdo"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView25"
-        tools:layout_editor_absoluteX="92dp" />
+        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
     <TextView
         android:id="@+id/textView19"

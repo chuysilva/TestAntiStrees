@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#067A7A"
-    android:onClick="Siguiente"
-    tools:context=".activity_sexto">
+    tools:context=".activity_septima">
 
     <RadioGroup
         android:id="@+id/radioGroup7"
@@ -15,7 +14,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24">
+        app:layout_constraintTop_toBottomOf="@+id/textView30">
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -35,14 +34,13 @@
     </RadioGroup>
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButton5"
         android:layout_width="128dp"
         android:layout_height="115dp"
         android:layout_marginStart="200dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="#00FFFFFF"
-        android:onClick="Siguiente"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,33 +48,7 @@
         app:srcCompat="@drawable/proximo" />
 
     <TextView
-        android:id="@+id/textView40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="35dp"
-        android:fontFamily="@font/open_sans"
-        android:text="Totalmente deacuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView38" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="53dp"
-        android:fontFamily="@font/open_sans"
-        android:text="En desacuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView24" />
-
-    <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/textView35"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -86,25 +58,42 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="416dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="25dp"
-        android:background="#153439"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Totalmente deacuerdo"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
     <TextView
-        android:id="@+id/textView24"
-        android:layout_width="407dp"
-        android:layout_height="67dp"
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="@font/open_sans"
+        android:text="En desacuerdo"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="309dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
-        android:text="¿Tienes insomnio cuando algún proyecto escolar se aproxima?"
+        android:layout_marginEnd="30dp"
+        android:text="¿Te sientes aislado?"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
@@ -113,4 +102,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="416dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="25dp"
+        android:background="#153439"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
 </androidx.constraintlayout.widget.ConstraintLayout>
