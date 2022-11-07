@@ -1,5 +1,6 @@
 package com.example.testantistrees;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -22,15 +23,23 @@ public class activity_segunda extends AppCompatActivity {
         rb1 = (RadioButton) findViewById(R.id.radioButton32);
         rb2 = (RadioButton) findViewById(R.id.radioButton33);
         rb3 = (RadioButton) findViewById(R.id.radioButton40);
-        //rb4 = (RadioButton) findViewById(R.id.radioButton41);
+        rb4 = (RadioButton) findViewById(R.id.radioButton41);
         rb5 = (RadioButton) findViewById(R.id.radioButton38);
-        //rb6 = (RadioButton) findViewById(R.id.radioButton39);
+        rb6 = (RadioButton) findViewById(R.id.radioButton39);
         rb7 = (RadioButton) findViewById(R.id.radioButton36);
-        //rb8 = (RadioButton) findViewById(R.id.radioButton37);
+        rb8 = (RadioButton) findViewById(R.id.radioButton37);
         rb9 = (RadioButton) findViewById(R.id.radioButton34);
-        //rb10 = (RadioButton) findViewById(R.id.radioButton35);
+        rb10 = (RadioButton) findViewById(R.id.radioButton35);
         rb11 = (RadioButton) findViewById(R.id.radioButton30);
-        //rb12 = (RadioButton) findViewById(R.id.radioButton31);
+        rb12 = (RadioButton) findViewById(R.id.radioButton31);
+
+        AlertDialog.Builder dialogo = new AlertDialog.Builder(activity_segunda.this);
+
+        dialogo.setTitle("Antes de comenzar...");
+        dialogo.setMessage("Contesta de manera honesta y sincera y listo");
+        dialogo.setNeutralButton("Ok", null);
+        AlertDialog titulo = dialogo.create();
+        titulo.show();
 
     }
 
@@ -38,40 +47,33 @@ public class activity_segunda extends AppCompatActivity {
 
         int intensidad = 0;
 
-        if(rb1.isChecked() || rb2.isChecked() )//|| rb3.isChecked() || rb4.isChecked() || rb5.isChecked() || rb6.isChecked() || rb7.isChecked() || rb8.isChecked() || rb9.isChecked() || rb10.isChecked() || rb11.isChecked() || rb12.isChecked())
+        if((rb1.isChecked() || rb2.isChecked()) && (rb3.isChecked() || rb4.isChecked()) && (rb5.isChecked() || rb6.isChecked()) && (rb7.isChecked() || rb8.isChecked()) && (rb9.isChecked() || rb10.isChecked()) && (rb11.isChecked() || rb12.isChecked()))
         {
-            /*Nadamas tomar en cuenta cuando pongan que si
+            //Nadamas tomar en cuenta cuando pongan que si
             if (rb1.isChecked()){
-                intensidad += 1;
+                intensidad = intensidad + 1;
             }
             if(rb3.isChecked()){
-                intensidad += 1;
+                intensidad = intensidad + 1;
             }
             if(rb5.isChecked()) {
-                intensidad += 1;
+                intensidad = intensidad + 1;
             }
             if(rb7.isChecked()){
-                intensidad += 1;
+                intensidad = intensidad + 1;
             }
             if(rb9.isChecked()){
-                intensidad += 1;
+                intensidad = intensidad + 1;
             }
             if(rb11.isChecked()) {
-                intensidad += 1;
-            }*/
-            Toast.makeText(getApplicationContext(), "Smn", Toast.LENGTH_SHORT).show();
+                intensidad = intensidad + 1;
+            }
+            Intent sig = new Intent(this, Activity_cuarto.class);
+            sig.putExtra("intensidad", intensidad);
+            startActivity(sig);
         }else {
             Toast.makeText(getApplicationContext(), "Todos los campos deben estar llenos!", Toast.LENGTH_SHORT).show();
         }
-            /*
-        if(rb2.isChecked() && rb4.isChecked() && rb6.isChecked() && rb8.isChecked() && rb10.isChecked() && rb12.isChecked())
-        {
-            Toast.makeText(getApplicationContext(), "Todos puso que no!", Toast.LENGTH_SHORT).show();
-        }
-         else
-         {
-             Toast.makeText(getApplicationContext(), "Todos los campos deben estar llenos!", Toast.LENGTH_SHORT).show();
-         }*/
 
     }
 }

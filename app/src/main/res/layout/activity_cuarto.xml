@@ -24,14 +24,14 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="405dp"
-        android:layout_height="70dp"
+        android:layout_width="351dp"
+        android:layout_height="67dp"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/open_sans"
         android:text="¿En tu área de trabajo haces mas cosas de las que puedes hacer?"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
