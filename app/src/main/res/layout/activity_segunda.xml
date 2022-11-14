@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#067A7A"
+    android:animationCache="false"
+    android:background="#258787"
     tools:context=".activity_segunda">
 
 
@@ -21,6 +22,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.72" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="413dp"
+        android:layout_height="48dp"
+        android:background="#65494545"
+        app:srcCompat="@drawable/logo_large"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
     <RadioGroup
         android:id="@+id/radioGroup6"
         android:layout_width="139dp"
@@ -35,12 +45,16 @@
         <RadioButton
             android:id="@+id/radioButton30"
             android:layout_width="69dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
 
         <RadioButton
             android:id="@+id/radioButton31"
             android:layout_width="50dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
     </RadioGroup>
 
     <RadioGroup
@@ -59,12 +73,16 @@
         <RadioButton
             android:id="@+id/radioButton32"
             android:layout_width="69dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:buttonTint="#0E0E0E" />
 
         <RadioButton
             android:id="@+id/radioButton33"
             android:layout_width="50dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
 
     </RadioGroup>
 
@@ -82,12 +100,16 @@
         <RadioButton
             android:id="@+id/radioButton34"
             android:layout_width="69dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
 
         <RadioButton
             android:id="@+id/radioButton35"
             android:layout_width="50dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
     </RadioGroup>
 
     <RadioGroup
@@ -104,12 +126,16 @@
         <RadioButton
             android:id="@+id/radioButton36"
             android:layout_width="69dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
 
         <RadioButton
             android:id="@+id/radioButton37"
             android:layout_width="50dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
     </RadioGroup>
 
     <RadioGroup
@@ -126,7 +152,9 @@
         <RadioButton
             android:id="@+id/radioButton38"
             android:layout_width="69dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
 
         <RadioButton
             android:id="@+id/radioButton39"
@@ -148,12 +176,16 @@
         <RadioButton
             android:id="@+id/radioButton40"
             android:layout_width="69dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
 
         <RadioButton
             android:id="@+id/radioButton41"
             android:layout_width="50dp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="#090909"
+            android:buttonTint="#090909" />
     </RadioGroup>
 
     <TextView

@@ -4,26 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#067A7A"
+    android:background="#258787"
     tools:context=".activity_tercero">
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="178dp"
         android:layout_height="63dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="38dp"
         android:fontFamily="@font/open_sans"
         android:text="ESTRES:"
         android:textColor="#FAFFFFFF"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.965" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView9"
@@ -36,28 +33,51 @@
         android:textColor="#FAFFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="188dp" />
+        tools:layout_editor_absoluteY="117dp" />
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="416dp"
-        android:layout_height="40dp"
-        android:background="#153439" />
+        android:layout_width="415dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:background="#153439"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="413dp"
+        android:layout_height="54dp"
+        android:background="#65494545"
+        app:srcCompat="@drawable/logo_large"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="147dp"
+        android:layout_height="58dp"
         android:layout_marginStart="125dp"
-        android:layout_marginTop="119dp"
         android:layout_marginEnd="125dp"
-        android:layout_marginBottom="166dp"
+        android:layout_marginBottom="100dp"
         android:fontFamily="@font/open_sans"
         android:text="COMENZAR"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pregunta4"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
