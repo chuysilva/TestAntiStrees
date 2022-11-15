@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_catorceabo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#258787"
+        tools:context=".Activity_cuarto"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="-52dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="Siguiente"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/proximo" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="293dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/open_sans"
+            android:text="¿Tienes problemas con algunos compañeros de trabajo?"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="416dp"
+            android:layout_height="48dp"
+            android:background="#153439"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="373dp"
+            android:layout_height="48dp"
+            android:background="#65494545"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo_large"
+            tools:layout_editor_absoluteX="-5dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="142dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:text="En desacuerdo"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="213dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Totalmente deacuerdo"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="142dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="De acuerdo"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup7"
+            android:layout_width="39dp"
+            android:layout_height="166dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:buttonTint="#090909" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#131212"
+                android:buttonTint="#191818" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:buttonTint="#101010" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#100F0F"
+                android:buttonTint="#101010" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="118dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:text="No trabajo"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/radioGroup7"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginEnd="126dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            app:srcCompat="@drawable/estreslaboral" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

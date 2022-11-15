@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".activity_quinceabo"
+            android:exported="false" />
+        <activity
+            android:name=".activity_catorceabo"
+            android:exported="false" />
+        <activity
+            android:name=".activity_treceabo"
+            android:exported="false" />
+        <activity
+            android:name=".activity_doceaba"
+            android:exported="false" />
+        <activity
+            android:name=".activity_onceaba"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_decima"
+            android:exported="false" />
+        <activity
             android:name=".activity_novena"
             android:exported="false" />
         <activity
