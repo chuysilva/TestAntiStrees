@@ -15,9 +15,11 @@
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="Siguiente"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/proximo" />
 
@@ -52,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="25dp"
         android:fontFamily="@font/open_sans"
         android:text="En desacuerdo"
         android:textColor="#FFFFFF"
@@ -97,7 +99,7 @@
         android:layout_width="323dp"
         android:layout_height="48dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="30dp"
         android:text="¿Estas actualmente preocupado por alguna situacion familiar?"
         android:textAlignment="center"
@@ -123,11 +125,12 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="380dp"
+        android:layout_width="419dp"
         android:layout_height="53dp"
         android:background="#65494545"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
         app:srcCompat="@drawable/logo_large"
-        tools:layout_editor_absoluteX="-5dp"
         tools:layout_editor_absoluteY="0dp" />
 
     <ImageView
@@ -140,4 +143,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView37"
         app:srcCompat="@drawable/estr_shogar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

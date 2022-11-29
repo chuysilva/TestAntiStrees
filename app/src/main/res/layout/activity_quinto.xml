@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:fontFamily="@font/open_sans"
         android:text="Totalmente deacuerdo"
         android:textColor="#FFFFFF"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="15dp"
         android:fontFamily="@font/open_sans"
         android:text="Deacuerdo"
         android:textColor="#FFFFFF"
@@ -66,7 +66,7 @@
         android:layout_width="33dp"
         android:layout_height="119dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12">
 
@@ -95,8 +95,8 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="307dp"
-        android:layout_height="105dp"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
         android:layout_marginTop="56dp"
         android:fontFamily="@font/open_sans"
         android:text="¿Has estado preocupado acerca de tu salud ultimamente?"
@@ -123,9 +123,10 @@
         android:layout_width="360dp"
         android:layout_height="49dp"
         android:background="#65494545"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_large"
-        tools:layout_editor_absoluteX="0dp" />
+        app:srcCompat="@drawable/logo_large" />
 
     <ImageView
         android:id="@+id/imageView12"

@@ -34,9 +34,9 @@
             android:layout_width="38dp"
             android:layout_height="113dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="188dp"
+            android:layout_marginTop="25dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView37">
+            app:layout_constraintTop_toBottomOf="@+id/imageView22">
 
             <RadioButton
                 android:id="@+id/radioButton"
@@ -79,12 +79,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="25dp"
             android:fontFamily="@font/open_sans"
             android:text="En desacuerdo"
             android:textColor="#FFFFFF"
             android:textSize="18dp"
             app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-            tools:layout_editor_absoluteY="293dp" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView22" />
 
         <TextView
             android:id="@+id/textView46"
@@ -131,8 +132,9 @@
             android:layout_width="380dp"
             android:layout_height="53dp"
             android:background="#65494545"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/logo_large"
-            tools:layout_editor_absoluteX="-5dp"
             tools:layout_editor_absoluteY="0dp" />
 
         <ImageView
