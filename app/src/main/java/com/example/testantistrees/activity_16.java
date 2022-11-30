@@ -2,6 +2,7 @@ package com.example.testantistrees;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -16,6 +17,8 @@ public class activity_16 extends AppCompatActivity {
         TextView txt2 = (TextView) findViewById(R.id.trabajo);
         TextView txt3 = (TextView) findViewById(R.id.casa);
         TextView txt4 = (TextView) findViewById(R.id.escuela);
+        TextView resultado = (TextView) findViewById(R.id.resultadoEstres);
+
 
         int intensidad = getIntent().getIntExtra("resultadoIntensidad",0);
         int trabajo = getIntent().getIntExtra("preguntaTrabajo",0);
@@ -26,6 +29,20 @@ public class activity_16 extends AppCompatActivity {
         txt2.setText("" + trabajo);
         txt3.setText("" + casa);
         txt4.setText("" + escuela);
+
+        if(trabajo > (casa & escuela)){
+            resultado.setText("Trabajo");
+        }else if(casa > (trabajo & escuela)){
+            resultado.setText("Casa");
+        }else if(escuela > (trabajo & casa)){
+            resultado.setText("Escuela");
+        }else if(trabajo == casa){
+            resultado.setText("Trabajo y Casa");
+        }else if(trabajo == escuela){
+            resultado.setText("Trabajo y Escuela");
+        }else if(casa == escuela){
+            resultado.setText("Casa y Escuela ");
+        }
     }
 
 
