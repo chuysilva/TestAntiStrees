@@ -22,74 +22,41 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/proximo" />
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="25dp"
-        android:fontFamily="@font/open_sans"
-        android:text="En desacuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/open_sans"
-        android:text="Totalmente deacuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/open_sans"
-        android:text="Deacuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView25" />
-
     <RadioGroup
         android:id="@+id/radioGroup7"
-        android:layout_width="33dp"
-        android:layout_height="119dp"
-        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12">
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:backgroundTint="#040404"
-            android:buttonTint="#020202" />
+            android:buttonTint="#020202"
+            android:text="@string/lbl_desacuerdo"
+            android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="45dp"
             android:backgroundTint="#040404"
-            android:buttonTint="#020202" />
+            android:buttonTint="#020202"
+            android:text="@string/lbl_acuerdo"
+            android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:backgroundTint="#040404"
-            android:buttonTint="#020202" />
+            android:buttonTint="#020202"
+            android:text="@string/lbl_totalmente"
+            android:textColor="#FFFFFF" />
 
     </RadioGroup>
 

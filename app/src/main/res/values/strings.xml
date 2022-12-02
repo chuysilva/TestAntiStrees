@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TestAntiStrees</string>
+    <string name="lbl_desacuerdo">    En desacuerdo</string>
+    <string name="lbl_acuerdo">    De acuerdo</string>
+    <string name="lbl_totalmente">    Totalmente de acuerdo</string>
+    <string name="lbl_notrabajo">    No trabajo</string>
 </resources>

@@ -22,60 +22,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/proximo" />
 
-    <TextView
-        android:id="@+id/textView58"
-        android:layout_width="118dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="12dp"
-        android:text="No trabajo"
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView57" />
-
-    <TextView
-        android:id="@+id/textView57"
-        android:layout_width="192dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="12dp"
-        android:text="Totalmente deacuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView56" />
-
-    <TextView
-        android:id="@+id/textView56"
-        android:layout_width="142dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="12dp"
-        android:text="De acuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/textView55" />
-
-    <TextView
-        android:id="@+id/textView55"
-        android:layout_width="142dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="20dp"
-        android:text="En desacuerdo"
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        app:layout_constraintStart_toEndOf="@+id/radioGroup7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
-
     <RadioGroup
         android:id="@+id/radioGroup7"
-        android:layout_width="39dp"
-        android:layout_height="166dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView21">
 
@@ -83,27 +35,35 @@
             android:id="@+id/radioButton"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
-            android:buttonTint="#090909" />
+            android:buttonTint="#090909"
+            android:text="@string/lbl_desacuerdo"
+            android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:backgroundTint="#131212"
-            android:buttonTint="#191818" />
+            android:buttonTint="#191818"
+            android:text="@string/lbl_acuerdo"
+            android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="wrap_content"
-            android:layout_height="46dp"
-            android:buttonTint="#101010" />
+            android:layout_height="45dp"
+            android:buttonTint="#101010"
+            android:text="@string/lbl_totalmente"
+            android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="45dp"
             android:backgroundTint="#100F0F"
-            android:buttonTint="#101010" />
+            android:buttonTint="#101010"
+            android:text="@string/lbl_notrabajo"
+            android:textColor="#FFFFFF" />
     </RadioGroup>
 
     <TextView

@@ -2,7 +2,6 @@ package com.example.testantistrees;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -18,6 +17,7 @@ public class activity_16 extends AppCompatActivity {
         TextView txt3 = (TextView) findViewById(R.id.casa);
         TextView txt4 = (TextView) findViewById(R.id.escuela);
         TextView resultado = (TextView) findViewById(R.id.resultadoEstres);
+        TextView resultado2 = (TextView) findViewById(R.id.resultado2);
 
 
         int intensidad = getIntent().getIntExtra("resultadoIntensidad",0);
@@ -25,7 +25,8 @@ public class activity_16 extends AppCompatActivity {
         int casa = getIntent().getIntExtra("preguntaCasa",0);
         int escuela = getIntent().getIntExtra("preguntaEscuela",0);
 
-        txt.setText("" + intensidad);
+        int rIntensidad = intensidad * 16;
+        txt.setText("" + rIntensidad + "%");
         txt2.setText("" + trabajo);
         txt3.setText("" + casa);
         txt4.setText("" + escuela);
@@ -36,12 +37,14 @@ public class activity_16 extends AppCompatActivity {
             resultado.setText("Casa");
         }else if(escuela > (trabajo & casa)){
             resultado.setText("Escuela");
-        }else if(trabajo == casa){
-            resultado.setText("Trabajo y Casa");
+        }
+
+        if(trabajo == casa && trabajo == escuela){
+            resultado.setText("Trabajo, Casa y Escuela ");
         }else if(trabajo == escuela){
-            resultado.setText("Trabajo y Escuela");
-        }else if(casa == escuela){
-            resultado.setText("Casa y Escuela ");
+            resultado2.setText(" y Escuela");
+        }else if(trabajo == casa){
+            resultado2.setText(" y Casa");
         }
     }
 
